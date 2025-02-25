@@ -1,0 +1,160 @@
+/* css/style.css */
+
+/* Base Styles (Mobile View) */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+  }
+  
+  div {
+    width: 90%; /* Default width for mobile */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  img {
+    max-width: 100%; /* Ensure images don't overflow the div */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes extra space below image*/
+    margin: 0 auto; /*centers the images horizontally*/
+  }
+  
+  .label {
+    margin-top: 5px; /* Add some space between image and label */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+      text-align: center;
+  }
+  /* Tablet View (Query #1) */
+  @media (min-width: 772px) {
+    div {
+      width: 45vw; /* 45% of viewport width */
+      display: inline-block;
+      
+    }
+  
+    img {
+      max-height: 30vh; /* 30% of viewport height */
+    }
+  }
+  
+  /* Large Screen View (Query #2) */
+  @media (min-width: 998px) {
+    div {
+      width: 30vw; /* 30% of viewport width */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
